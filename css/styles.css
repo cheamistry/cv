@@ -17,6 +17,7 @@ body {
     color: #40514E;
     font-family: "Oxygen", Arial, serif;
     margin: 0;
+    padding: 0;
     text-align: center;
 }
 h1 {
@@ -32,16 +33,22 @@ h2 {
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
 }
 h3 {
     color: #056676;
     font-family: "Questrial", Arial, sans-serif;
+    margin-bottom: 0;
+    text-align: center;
 }
 hr {
     border-style: none;
     border-top-style: dotted;
     border-color: lightgrey;
     border-width: 6px;
+    margin: 0;
+    position: relative;
     width: 3%;
 }
 a {
@@ -52,15 +59,37 @@ a {
 a:hover {
     color: #EAF6F6;
 }
+p {
+  margin: 0 1rem;
+}
 .top-container {
     background-color: #e0ece4;
     margin-bottom: 0;
     position: relative;
     padding-top: 33.2px;
 }
-.middle-container {
+.blurb-container {
     background-color: #f7f2e7;
-    padding: 100px 0;
+    margin-bottom: 0;
+    padding: 50px 0;
+    position: relative;
+}
+.experience-container {
+    background-color: #f7f2e7;
+    margin-bottom: 0;
+    padding: 50px 0;
+    position: relative;
+}
+.skills-container {
+    background-color: #f7f2e7;
+    margin-bottom: 0;
+    padding: 50px 0;
+    position: relative;
+}
+.contact-me {
+    background-color: #f7f2e7;
+    margin-botto: 0;
+    padding: 50px 0;
     position: relative;
 }
 .bottom-container {
@@ -95,15 +124,19 @@ a:hover {
 .profile-img {
     height: 160px;
     width: 160px;
-}
-.skills {
-    margin: 30px auto 30px auto;
+    margin-bottom: 30px;
 }
 .skill-row {
     line-height: 2;
     margin: 100px auto 100px auto;
     text-align: left;
     width: 50%;
+}
+.col-lg-6 {
+    margin: 30px auto 30px auto;
+}
+.col-md-12 {
+    margin: 30px auto 30px auto;
 }
 .digital-img {
     float: left;
@@ -116,7 +149,7 @@ a:hover {
     width: 15%;
 }
 .contact-me {
-    margin: 30px auto 30px auto;
+    margin: auto;
 }
 .contact-msg {
     margin: 40px auto 60px;
